@@ -1,0 +1,14 @@
+body{
+    background-color: #a76c6c;
+    color: antiquewhite;
+    
+}
+.img{
+    max-width: 500px;
+    max-height: 500px;
+    position: relative;
+}
+
+/* .cl{
+    color: rgb(28, 211, 174);
+} */

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="container">
         <div class="navbar">
@@ -13,34 +15,54 @@
             <a href="activity.html">Activity</a>
             <a href="status.html">Status</a>
         </div>
-        <div class="main-content">
-            <div class="profile-info">
-                <p>Name :- Prathmesh Kadam.</p>
-                <p>Subjects :- Java, SQL, Python.</p>
-                <p>User Id :- #1234</p>
+        <div class="main">
+            <div class="main-content">
+                <div class="profile-info">
+                    <p>Name :- Prathmesh Kadam.</p>
+                    <p>Subjects :- Java, SQL, Python.</p>
+                    <p>User Id :- #1234</p>
+                </div>
+                <div class="pdf-section">
+                    <h3>PDF section</h3>
+                    <div class="pdf-item">
+                        <img src="pdf-icon.png" alt="PDF Icon">
+                        <p>Java</p>
+                    </div>
+                    <div class="pdf-item">
+                        <img src="pdf-icon.png" alt="PDF Icon">
+                        <p>SQL</p>
+                    </div>
+                    <div class="pdf-item">
+                        <img src="pdf-icon.png" alt="PDF Icon">
+                        <p>Python</p>
+                    </div>
+                </div>
             </div>
-            <div class="pdf-section">
-                <h3>PDF section</h3>
-                <div class="pdf-item">
-                    <img src="pdf-icon.png" alt="PDF Icon">
-                    <p>Java</p>
+            <div class="sidebar items">
+                <div class="avatar"></div>
+                <div class="nm">
+                    <p><span class="label">City :-</span> Pune</p>
+                    <p><span class="label">School :-</span> Itpreneuer</p>
+                    <p><span class="label">Class :-</span> itpd</p>
                 </div>
-                <div class="pdf-item">
-                    <img src="pdf-icon.png" alt="PDF Icon">
-                    <p>SQL</p>
-                </div>
-                <div class="pdf-item">
-                    <img src="pdf-icon.png" alt="PDF Icon">
-                    <p>Python</p>
-                </div>
+                
+
             </div>
-        </div>
-        <div class="sidebar">
-            <div class="avatar"></div>
-            <p>City :- Pune</p>
-            <p>School :- Itpreneuer</p>
-            <p>Class :- itpd</p>
         </div>
     </div>
+    <div class="chat-section">
+        <h3>Chat</h3>
+        <div class="chat-box">
+            <div class="message">Vaibhav: Hello!</div>
+            <div class="message">Amol: Hi there!</div>
+            <div class="message">Shoaib: Hi Guys!!</div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="chat-message" placeholder="Type a message">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>

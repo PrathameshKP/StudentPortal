@@ -8,7 +8,6 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .navbar {
@@ -25,16 +24,22 @@ body {
     padding: 5px 10px;
 }
 
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
 .main-content {
     border: 1px solid blue;
     padding: 10px;
     background-color: #d3d3d3;
-    margin: 10px 0;
-    width: 60%;
+    width: 70%;
 }
 
 .profile-info {
     margin-bottom: 20px;
+    padding-left: 10px;
 }
 
 .pdf-section {
@@ -65,15 +70,68 @@ body {
 .sidebar {
     background-color: #ccc;
     padding: 10px;
-    width: 20%;
-    margin-left: 10px;
+    width: 25%;
     text-align: center;
+    margin-right: 10px;
+    border: 2px solid #5c8cb5;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+.nm{
+    /* border:1px solid pink; */
+    text-align: start;
+    
+}
+
+
 .avatar {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: #eee;
-    border-radius: 50%;
+    border-radius: 15%;
     margin: 0 auto 10px;
 }
+
+.chat-section {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    width: 60%;
+    margin: 10px auto;
+    background-color: rgb(165, 240, 165);
+}
+
+.chat-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.chat-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-input input {
+    width: 80%;
+    padding: 5px;
+}
+
+.chat-input button {
+    padding: 5px 10px;
+}
+
