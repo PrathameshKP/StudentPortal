@@ -82,7 +82,6 @@ body {
 }
 
 .nm{
-    /* border:1px solid pink; */
     text-align: start;
     
 }
@@ -94,6 +93,7 @@ body {
     background-color: #eee;
     border-radius: 15%;
     margin: 0 auto 10px;
+
 }
 
 .chat-section {
