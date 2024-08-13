@@ -25,17 +25,17 @@
         }
 
         function signup(){
-            window.location.href = "signUp.html"
+            window.location.href = "Login.html"
         }
     </script>
 </head>
 <body class="d-flex flex-column">
 
-    
+    <h1 style="color:rgb(150, 230, 51); text-align: center; font-family: cursive; font-weight: bolder;">Welcome IN Student Portal</h1>
 
   
     <div class="d-flex justify-content-center align-items-center vh-100">
-        <img class="img me-4" src="image1.jpg" alt="">
+        <img class="img me-4" src="/Images/image1.jpg" alt="">
         <form class="w-100 border border-primary rounded p-4" style="max-width: 400px;">
             <div class="form-group mb-3">
                 <label for="exampleInputEmail1">Email address</label>
@@ -47,6 +47,7 @@
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             </div>
             <button type="button" class="btn btn-primary" onclick="handleSubmit(event)">Login</button>
+            <button type="button" class="btn btn-primary" onclick="signup(event)">Signup</button>
         </form>
     </div>
 
